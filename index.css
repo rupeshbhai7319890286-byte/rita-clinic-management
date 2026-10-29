@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    /* Hide all non-printable elements */
+    body {
+      background: white !important;
+      color: black !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .no-print {
+      display: none !important;
+    }
+    .print-only {
+      display: block !important;
+    }
+    .print-container {
+      width: 100% !important;
+      max-width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+  }
+
+  @media screen {
+    .print-only {
+      display: none !important;
+    }
+  }
+}

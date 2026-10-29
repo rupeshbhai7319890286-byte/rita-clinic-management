@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "रीता क्लिनिक - Rita Clinic",
+  "short_name": "Rita Clinic",
+  "description": "रीता क्लिनिक - डॉ. रूपेश कुमार पोद्दार (साइकिल चौक, मोहनपुर, मुजफ्फरपुर, बिहार)",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1e3a8a",
+  "background_color": "#0f172a",
+  "categories": ["medical", "health", "lifestyle"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
